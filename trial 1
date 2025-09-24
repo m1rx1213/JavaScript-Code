@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JS Practice</title>
+</head>
+<body>
+  <h1>Trial 1</h1>
+  <button onclick="sayHi()">Click Me</button>
+
+  <script>
+    function sayHi() {
+      alert("Hi Mira ✨ You just clicked the button!");
+    }
+  </script>
+</body>
+</html>
