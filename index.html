@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>JS Practice</title>
+  <title>My First JavaScript</title>
 </head>
 <body>
-  <h1>Trial 1</h1>
-  <button onclick="sayHi()">Click Me</button>
-
-  <script>
-    function sayHi() {
-      alert("Hi Mira ✨ You just clicked the button!");
-    }
-  </script>
+<h1 id="title">Hello!</h1>
+<button onclick="changeText()">Click Me</button>
+<script>
+  function changeText() {
+    document.getElementById("title").innerHTML = "You clicked the button!";
+  }
+</script>
 </body>
-</html>
+  
