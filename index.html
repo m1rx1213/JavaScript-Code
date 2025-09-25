@@ -1,15 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My First JavaScript</title>
+  <meta charset="UTF-8">
+  <title>My Longer JavaScript Demo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+    button {
+      padding: 10px 20px;
+      margin: 10px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
 </head>
 <body>
-<h1 id="title">Hello!</h1>
-<button onclick="changeText()">Click Me</button>
-<script>
-  function changeText() {
-    document.getElementById("title").innerHTML = "You clicked the button!";
-  }
-</script>
+
+  <h1 id="title">Welcome, Mira!</h1>
+  <p id="message">Click a button to see some JavaScript magic ✨</p>
+
+  <button onclick="sayHello()">Say Hello</button>
+  <button onclick="changeTitle()">Change Title</button>
+  <button onclick="changeBackground()">Change Background</button>
+
+  <script>
+    // Function 1: Show a popup
+    function sayHello() {
+      alert("Hello Mira! 👋 JavaScript says hi!");
+    }
+
+    // Function 2: Change the heading text
+    function changeTitle() {
+      document.getElementById("title").innerHTML = "You changed the title!";
+    }
+
+    // Function 3: Change the background color
+    function changeBackground() {
+      document.body.style.backgroundColor = "lightblue";
+    }
+  </script>
+
 </body>
-  
+</html>
