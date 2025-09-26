@@ -1,0 +1,20 @@
+/ Write code below 💖
+// My Favorite Dish: Dumplings
+// m1rx1213
+console.log("Ingredients")
+console.log("Ground chicken (or pork/beef if you like) – 250g")
+console.log("Green onions – chopped (2–3 stalks)")
+console.log("Garlic – 2 cloves, minced")
+console.log("Ginger – 1 tsp, grated")
+console.log("Soy sauce – 2 tbsp")
+console.log("Sesame oil – 1 tsp")
+console.log("Salt & pepper – to taste")
+
+console.log("Instructions")
+console.log("Boil: Drop into boiling water until they float (5–6 min).")
+console.log("EAT IT")
+
+/*
+secret ingredient:
+Mix in a little grated mozzarella or cheddar with the filling for a CHEESY KICK!!
+*/
